@@ -7,7 +7,6 @@
     if you used it would be O(n^3)
 
     
-    
     1. iterate over list from 0 to length of array-1 using i to index
     2.  set minimum index to i
     3.  iterate over the aray from i+1 to len(arr)
