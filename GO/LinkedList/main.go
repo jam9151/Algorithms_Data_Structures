@@ -12,4 +12,8 @@ func main() {
 	fmt.Println()
 	arr := generateRandomArray(SIZE)
 	fmt.Print(arr)
+
+	linkedList := LinkedListFromArr(arr)
+	traverseLinkedList((linkedList))
+
 }
